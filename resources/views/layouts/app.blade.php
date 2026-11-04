@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,600;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body data-view="@yield('view')">
 <div class="page">
@@ -51,6 +51,6 @@
 </div>
 
 <script>var IMG_URL = "{{ asset('images') }}/";</script>
-<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

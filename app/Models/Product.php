@@ -19,6 +19,6 @@ class Product extends Model
     // One product can have many variants (styles)
     public function variants()
     {
-        return $this->hasMany(ProductVariant::class);
+        return $this->hasaMany(ProductVariant::class);
     }
 }
